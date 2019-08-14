@@ -1,0 +1,16 @@
+{
+    "name": "OpenMageModuleFostering/Sailthru_Personalized_Email_Communication",
+    "type": "magento-module",
+    "license": "Open-Software-License-(OSL)",
+    "homepage": "",
+    "description": "The Sailthru extension enables you route all transactional emails through Sailthru as well as utilize the powerful suite of products from Sailthru that enable each Merchant to truly personalize email communication. ",
+    "authors": [
+    {
+        "name": "Kwadwo Juantuah",
+        "email": "kjuantuah@sailthru.com"
+    }
+],
+    "suggest": {
+        "magento-hackathon/magento-composer-installer": "*"
+    }
+}

@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<package>
+    <name>Sailthru_Personalized_Email_Communication</name>
+    <version>1.1.0</version>
+    <stability>stable</stability>
+    <license>Open Software License (OSL)</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>The Sailthru extension enables you route all transactional emails through Sailthru as well as utilize the powerful suite of products from Sailthru that enable each Merchant to truly personalize email communication. </summary>
+    <description>Sailthru Extension&#xD;
+&#xD;
+Overview&#xD;
+This extension enables you to fully integrate with Sailthru&amp;apos;s powerful suite of products &#xD;
+&#xD;
+Transactional Emails&#xD;
+The extension overwrites Magento&amp;apos;s default send functionality to route all transactional emails through Sailthru.  The templates that already exist in Magento are created in Sailthru the first time such a template is sent and you are able to track delivery rate on each transactional email.  All transactional emails can also utilize Sailthru&amp;apos;s triggers that can for example, specify an email to be sent if a user opens or clicks on an email or makes a purchase.  &#xD;
+&#xD;
+&#xD;
+Abandoned Cart Emails&#xD;
+The extension makes it really easy to send abandoned cart emails.  All you have to do is to specify the time after an item is added to cart (and a purchase is not made) that the abandoned cart email should be sent.  An API call is made when a customer adds an item to their cart and this schedules the email to be sent.  &#xD;
+&#xD;
+Purchase API&#xD;
+Sailthru&amp;apos;s purchase API creates a profile that has all the purchases that a user has made as well as current items that are in their cart.  This makes it really easy to be able to personalize either transactional emails or newsletters to customers based on their unique profiles and interests.  &#xD;
+&#xD;
+&#xD;
+Horizon&#xD;
+Horizon is Sailthru&amp;apos;s unique behavioral-tracking product. Horizon gathers data on your users&amp;apos; individual interests based on activity on your website or mobile app.&#xD;
+&#xD;
+Armed with that intelligence, you can dynamically target users based on their purchase, browsing, and explored interests. Horizon-personalized content boosts clicks, pageviews and user engagement.&#xD;
+&#xD;
+Concierge&#xD;
+Concierge is a Horizon-powered on-site recommendation tool, allowing a small &amp;quot;slider&amp;quot; to appear in a user&amp;apos;s browser window at the end of an article. The slider will suggest another story based on a user&amp;apos;s interest. &#xD;
+</description>
+    <notes>Improvements have been made to the data that is pushed pushed out to Sailthru and more admin options have been added to the backend to specify the name, email and template for the abandoned cart as well as lists that users should be added to when they sign up.  </notes>
+    <authors><author><name>Kwadwo Juantuah</name><user>sailthru</user><email>kjuantuah@sailthru.com</email></author></authors>
+    <date>2012-11-06</date>
+    <time>23:02:40</time>
+    <contents></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.3.0</min><max>6.0.0</max></php></required></dependencies>
+</package>
